@@ -53,13 +53,13 @@ grundflache  = 4125  #in mm2 (75mm*55mm)
 
 
 #cups
-# Anamometer vane diameter (set to the value for your cup-to-cup in mm)
-vane_diameter = float(106)
+# Anamometer vane diameter (value from cup-to-cup in mm)
+vane_diameter = float(140)
 
 # Calculate vane circumference in metres
 vane_circ = float (vane_diameter/1000)*3.1415
 
-# Set an anamometer factor to account for inefficiency (value is a guess)
+# Set an anamometer factor to account for inefficiency
 afactor = float(2.5)
 
 # Define variable endtime to be current time in seconds plus 10 seconds
