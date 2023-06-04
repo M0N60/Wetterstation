@@ -35,9 +35,9 @@
         $Mensch_temp10_20_niederschalg_0 = "menschen/MENSCH3.png";
         $Mensch_temp20niederschalg_0 = "menschen/MENSCH4.png";
 
-        $Mensch_temp0_10_niederschalg_1 = "menschen/MENSCH.png";
-        $Mensch_temp10_20_niederschalg_1 = "menschen/MENSCH.png";
-        $Mensch_temp20niederschalg_1 = "menschen/MENSCH.png";
+        $Mensch_temp0_10_niederschalg_1 = "menschen/MENSCH2.png";
+        $Mensch_temp10_20_niederschalg_1 = "menschen/MENSCH3.png";
+        $Mensch_temp20niederschalg_1 = "menschen/MENSCH4.png";
         
 
         // Regneschirm  an aus bestimmen 
