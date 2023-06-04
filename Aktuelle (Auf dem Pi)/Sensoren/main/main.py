@@ -10,7 +10,6 @@ from ploter import *
 # wenn das programm nicht Sterben solle lass es ne komentar XD
 #GPIO.setwarnings(False) 
 
-
 # abstand zwischen dem Messen der sensoren 
 anbstants_zeit = 0
 
