@@ -1,0 +1,78 @@
+Pin 	Funktion            	Anschluss zum : ((zweitbelegung)  &&  ~ heißt möglich zum wechsel    + heißt möglich dopple anschluss )
+1   	3.3V                	Bosch BME280
+2   	5V			            RAIN_SEN	(Rotary_Encoder)
+3   	I2C(1)          	    Bosch BME280 	(+ADC)
+4 	    5V			            Lüfter		(~Display)
+5	    I2C(1)              	Bosch BME280 	(+ADC)
+6	    GND			            Lüfter		(~Display)
+7       GPIO_4                  RAIN_SEN	(~ ist eigentlich an A0)
+8       UART                   	
+9       GND                   	Bosch BME280
+10      UART                  	
+11      GPIO_17                 Relais 
+12      PCM                   	
+13      GPIO_27                 Rotary_Encoder
+14     	GND                 	Rotary_Encoder
+15      GPIO_22                 Rotary_Encoder
+16      GPIO_23                 Rotary_Encoder
+17     	3.3V                    ADC
+18      GPIO_24                 LED
+19      SPI                    	
+20      GND                     RAIN_SEN
+21      SPI                    	
+22      GPIO_			
+23      SPI                    	
+24	    SPI 			
+25      GND                     ADC
+26      SPI 			
+27      I2C(0)   		        ADC		(Display(?Da das kabel auch an I2C ist?))
+28      I2C(0)                  ADC		(Display(?Da das kabel auch an I2C ist?))
+29      GPIO_                   
+30      GND                   	LED++FOTOTRANSISTOR (kommen zusammnen)
+31      GPIO_                   
+32      PWM			
+33      GPIO_                   
+34     	GND      		
+35      PCM                     
+36      GPIO_                   
+37      GPIO_                 	
+38      PCM                     
+39	    GND			            Display
+40      PCM			
+
+
+Vom ADC:
+
+A0	    Analoge			        RAIN_SEN
+A1	    Analoge			        FOTO_TRANSISTOR
+A2	    Analoge			
+A3	    Analoge			
+
+Verteilerplatine:
+GND				Relais == Ventil	
+GND				PCU == Netzteil
+GND				USB
+GND				Step_Down
+5V				Relais	
+5V				USB
+5V				Step_Down
+5V				Display		( Rotary_Encoder ~Lüfter)
+12V				Relais == Ventil 
+12V				PCU == Netzteil
+12V				Step_Down
+
+
+
+
+Note: 
+I2C is a multi-drop bus, multiple devices can be connected to these same two pins. Each device has its own unique I2C address.
+I2C muss im BIOS aktivirt werden oder übers terminal mit:
+    sudo apt-get install i2c-tools
+    sudo i2cdetect -y 1
+Relais muss in NC (Normaly Closed und musss den durchgang das 12V potentials zum Ventil geben(?))	
+
+Rotary_Encoder ??
+
+Quelle:
+https://pinout.xyz/pinout/i2c# 
+https://www.elektronik-kompendium.de/sites/raspberry-pi/2703131.htm

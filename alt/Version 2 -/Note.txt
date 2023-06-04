@@ -1,0 +1,10 @@
+Html mit Javaskript
+eine main.exe (mit anderen biblioteken) // Problem XD
+
+main (
+nehmen die Sensoren speichern diese in einem arry welches,
+es dann an die Plotter wieter gibt und 
+es geben die aktuellen werte an die Html/PHP (?HOW?)
+)
+Plotter (als funktion in einer biblioteken --> nehmen das array aus main)
+Sensoren(als funktion in einer biblioteken --> über geben werte in main)

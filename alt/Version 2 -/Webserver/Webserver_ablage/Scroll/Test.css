@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/poppins'); /* style von jemanden klauen XD*/
+
+body{
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    /* grid muster erstellen und alle sectionen mittig machen */
+    display: grid;
+    place-items: center;
+    /*für mehrerer items in der selben section*/ 
+    align-content: center;
+    min-height: 100vh;
+}
+.hidden{
+    /* standart klasse (benutzer ist noch nicht bei diesem element)*/
+    opacity: 0; /*unsichtbar machen*/ 
+
+    transition: all 2s; /* einfligen lassen der elemente*/ 
+
+    /*einfligen schöner machen */ 
+    filter: blur(5px);
+    transform: translateX(-100%)
+}
+.show{
+    /*sicht klasse  (benutzer ist auf diesem element) */
+    opacity: 1; /*sichtbar machen */ 
+
+    /*einfligen schöner machen */ 
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+.bilder{ /*geht auf alle bilder*/ 
+    display: flex;
+}
+
+.bild:nth-child(2){ /* geht nur auf ein bild (das 2te)*/ 
+    transition-delay: 400ms;
+}
+
+.bild:nth-child(3){ /* geht nur auf ein bild (das 3te)*/ 
+    transition-delay: 800ms;
+}
+
+.bild:nth-child(4){ /* geht nur auf ein bild (das 4te)*/ 
+    transition-delay: 1200ms;
+}
+
+/**/ 
