@@ -91,7 +91,7 @@
         </div>
     </main>
 
-    <!-- hier sollen einmal die Aktuellen Werte hin ? -->
+    <!-- hier sollen einmal die Aktuellen Werte hin -->
 
     <section class="hidden bubble_rot">
         <h2>Die aktuelle <br> Temperatur ist: </h2>
@@ -132,7 +132,7 @@
     </section>
 
 
-    <!-- hier sollen die Diagramme hin ? -->
+    <!-- hier sollen die Diagramme hin -->
 
     <section class="hidden">
         <h3> Der verlauf an Hand von <br> Diagrammen:</h3>
