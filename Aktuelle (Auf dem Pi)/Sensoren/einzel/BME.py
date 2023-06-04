@@ -1,4 +1,3 @@
-
 import bme280
 import smbus2
 from time import sleep
