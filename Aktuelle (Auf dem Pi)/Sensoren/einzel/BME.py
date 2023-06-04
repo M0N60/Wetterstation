@@ -1,6 +1,3 @@
-# geklauen XD 
-# war mit dem normal en os siehe link
-#https://core-electronics.com.au/guides/piicodev-atmospheric-sensor-bme280-raspberry-pi-guide/ 
 
 import bme280
 import smbus2
