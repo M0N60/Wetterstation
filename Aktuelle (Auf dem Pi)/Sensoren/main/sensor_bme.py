@@ -1,8 +1,5 @@
 from bibliotheken import *
 
-
-
-
 port = 1
 address = 0x76
 bus = smbus2.SMBus(port)
