@@ -7,8 +7,8 @@ from sensor_niederschlag_und_windgeschwindikeit import *
 
 # ! Windrichtung und Plotter geht nicht! 
 
-# wenn das programm nicht Sterben solle lass es ne komentar XD
-#GPIO.setwarnings(False) 
+# wenn das programm nicht Sterben solle lass es eine kommentar XD
+# GPIO.setwarnings(False) 
 
 
 # abstand zwischen dem Messen der sensoren 
