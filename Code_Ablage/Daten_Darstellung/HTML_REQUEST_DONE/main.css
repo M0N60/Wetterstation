@@ -1,0 +1,50 @@
+body {
+    background-color: skyblue;
+    /*background-image: url(wetterstation.jpg); ! nein ! */
+    /*overflow: auto; ? ig ? */
+}
+
+#Titel {
+    position: relative;
+    margin: 25px;
+    color: black;
+    text-align: center;
+}
+
+#Inhalt {
+    position: relative;
+    text-align: center;
+}
+
+.in_inhalt_ueberschrift {
+    color: black;
+    text-align: center;
+}
+
+#box_border{
+    border: solid black;
+    background-color: white;
+    height: min-content ;
+}
+
+
+#box_hidden{
+    background-color: skyblue;
+    border: hidden;
+}
+
+#auswahl_innen {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+#Info{
+    text-align: center;
+}
+
