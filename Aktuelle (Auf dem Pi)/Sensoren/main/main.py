@@ -7,7 +7,7 @@ from ploter import *
 
 # ! Windrichtung und Plotter geht nicht! 
 
-# wenn das programm nicht Sterben solle lass es ne komentar XD
+# wenn das programm nicht Sterben solle lass es einne kommentar XD
 #GPIO.setwarnings(False) 
 
 # abstand zwischen dem Messen der sensoren 
