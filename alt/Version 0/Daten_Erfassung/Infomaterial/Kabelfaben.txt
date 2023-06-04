@@ -1,0 +1,38 @@
+Fabe        Potential
+
+Verteilerplatine:
+Schwarz     GND ++Braun++grau
+Rot         12V
+Blau        5V  ++Rot/Blau
+
+LED:
+Gelb        +(Hinterleiter)
+Grün        -(Rückleiter)
+
+FOTO_TRANSISTOR:
+Weiß/Gelb   +(Hinterleiter)
+Weiß/Grün   -(Rückleiter)
+
+Relais:
+Weiß/grau   GPIO_17
+
+
+RAIN_SEN:
+Weiß/blau    A0
+
+Rotary_Encoder:
+Weiß/orange GPIO_27
+Gelb/braun  GPIO_22
+Violett	    GPIO_23                 
+
+Bosch BME280:
+Pink        3.3V 
+Weiß        I2C(1) SCL
+Pink/braun  I2C(1) SDA
+
+ADC:
+Pink        3.3V
+Weiß        I2C(0) SCL
+Pink/braun  I2C(0) SDA
+
+
