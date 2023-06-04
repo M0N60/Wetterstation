@@ -3,4 +3,4 @@ Ein Schule Projekt von: Jenne Semmling, Ben Kramer, Miriam Konawaltschuk
 
 Die Dokumentation vom "Aktuellen Code" ist unter "Wetterstation/tree/main/Aktuelle (Auf dem Pi)/Webseite" dises PHP zeigt die ganze Dokumentation vom Schule Projekt
 
-Die "alt" Datein sind nur eine Ablage von unseren ersten versuchen und dementsprechend irrelevant
+Alles im "alt" Ordner sind nur Datein von unseren ersten versuchen und sind dementsprechend irrelevant!!
