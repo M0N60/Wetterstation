@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Wetterstation der BBST</title>
+</head>
+
+<body>
+    <div id="Titel">
+        <H1>Willkommen auf der Seite unserer Wetterstation</H1>
+        <h2>Ein Schulprojekt von: Jenne S., Miriam K., Ben K. und Senad V.</h2>
+        <h3>Wählen Sie die Daten aus, die Sie sehen wollen</h3>
+    </div>
+
+    <div id="Inhalt">
+    <table align="center" >
+    <form action="main.php" method="post">
+        <tr>
+            <td id="box_border">
+                <h3 class="in_inhalt_ueberschrift">
+                    Niederschlag
+                    <select name="Niederschlag">
+                        <option value="1">Ja</option>
+                        <option value="0">Nein</option>
+                    </select>
+                </h3>
+            </td>
+            <td id="box_border">
+                <h3 class="in_inhalt_ueberschrift">
+                    Temperatur
+                    <select name="Temperatur">
+                        <option value="1">Ja</option>
+                        <option value="0">Nein</option>
+                    </select>
+                </h3>
+            </td>
+            <td id="box_border">
+                <h3 class="in_inhalt_ueberschrift">
+                    Windstärke
+                    <select name="Windstärke">
+                        <option value="1">Ja</option>
+                        <option value="0">Nein</option>
+                    </select>
+                </h3>
+            </td>
+        </tr>
+        <tr id="box_hidden">
+            <td>
+                <img src="Niederschlag.jpg" alt="">
+            </td>
+            <td>
+                <img src="temperatur.png" alt="">
+            </td>
+            <td>
+                <img src="windstärle.jpg" alt="">
+            </td>
+        </tr>
+
+        <tr>
+            <td id="box_border">
+                <h3 class="in_inhalt_ueberschrift">
+                    Windrichtung
+                    <select name="Windrichtung">
+                        <option value="1">Ja</option>
+                        <option value="0">Nein</option>
+                    </select>                </h3>
+            </td>
+            <td id="box_border">    
+                <h3 class="in_inhalt_ueberschrift">
+                    Luftfeuchtigkeit
+                    <select name="Luftfeuchtigkeit">
+                        <option value="1">Ja</option>
+                        <option value="0">Nein</option>
+                    </select>                </h3>
+            </td>
+            <td id="box_border">
+                <h3 class="in_inhalt_ueberschrift">
+                    Luftdruck
+                    <select name="Luftdruck">
+                        <option value="1">Ja</option>
+                        <option value="0">Nein</option>
+                    </select>                </h3>
+            </td>
+        </tr>
+
+        <tr id="box_hidden">
+            <td>
+                <img src="Windrichtung.png" alt="">
+            </td>
+            <td> 
+                <img src="Luftfeuchtigkeit 1.jpg" alt="">
+            </td>
+            <td>
+                <img src="Luftdruck.jpg" alt="">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" id="auswahl_box">
+                <div id="auswahl_innen">
+                    <input type="submit" value="Daten anzeigen"> Daten anzeigen
+                    <br>
+                    <br>
+                    <input type="reset" value="Auswahl zurücksetzen"> Auswahl zurücksetzen
+                </div>
+            </td>
+        </tr>
+    </form>
+    </table>
+    </div>
+
+    <div id="Info">
+        <h2><a href="(seite_mit_der_Dokumentation_ig)">Über die Wetterstation</a></h2>
+    </div>
+
+</body>
+</html>
