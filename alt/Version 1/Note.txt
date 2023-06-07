@@ -1,3 +1,0 @@
-Html standart + test von Javaskript
-alter exe (mit miriam)
-einzelene Plotter
