@@ -1,5 +1,5 @@
 # Wetterstation
-Ein Schule Projekt von: Jenne Semmling, Ben Kramer, Miriam Konawaltschuk.
+Ein Schule Projekt von: Jenne Semmling, Ben Kramer und Miriam Konawaltschuk.
 
 Alles im "neu" Ordner ist der Code der als Final gilt und momentan benutzt wird.
 
