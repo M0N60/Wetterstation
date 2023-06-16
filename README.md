@@ -1,6 +1,8 @@
 # Wetterstation
-Ein Schule Projekt von: Jenne Semmling, Ben Kramer und Miriam Konawaltschuk.
+Ein Schuloprojekt von: Jenne Semmling, Ben Kramer und Miriam Konawaltschuk.
 
-Alles im "neu" Ordner ist der Code der als Final gilt und momentan benutzt wird.
+Alles im Ordner "neu", ist der Code der als Final gilt und momentan benutzt wird.
 
-Alles im "alt" Ordner sind nur Datein von unseren ersten versuchen und sind dementsprechend irrelevant !!
+Alles im Ordner "alt" sind Datein von unseren ersten Versuchen und sind dementsprechend irrelevant !!
+
+Kuru Kuru
